@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  slapd:
+    build:
+      context: https://github.com/xnandersson/docker-slapd.git
+    image: xnandersson/slapd
+    environment:
+      DOMAIN: openforce.org
+      PASSWORD: Secret007!
+      ORGANIZATION: "Openforce AB"
+    ports:
+     - 389:389
