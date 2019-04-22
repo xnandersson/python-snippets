@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+ <users>
+    <user>
+        <name>Niklas Andersson</name>
+        <password>password1</password>
+    </user>
+    <user>
+        <name>John Doe</name>
+        <password>password2</password>
+    </user>
+ </users>
+</root>
