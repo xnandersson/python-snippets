@@ -1,0 +1,11 @@
+version: '3'
+services:
+  mysql:
+    image: mysql:latest
+    environment:
+      MYSQL_ROOT_PASSWORD: snippet
+      MYSQL_DATABASE: snippet
+      MYSQL_USER: snippet
+      MYSQL_PASSWORD: snippet
+    ports:
+     - 3306:3306
