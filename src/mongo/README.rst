@@ -1,0 +1,2 @@
+- http://api.mongodb.com/python/current/examples/authentication.html
+- http://api.mongodb.com/python/current/
