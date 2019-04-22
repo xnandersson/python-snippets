@@ -1,0 +1,17 @@
+version: '3'
+
+services:
+  dc:
+    build:
+      context: https://github.com/xnandersson/docker-dc.git
+    image: xnandersson/dc
+    environment:
+      SAMBA_DOMAIN: openforce
+      SAMBA_HOST: dc
+      SAMBA_ADMINPASS: Abc123!
+      SAMBA_KRBTGTPASS: Abc123!
+      SAMBA_REALM: OPENFORCE.ORG
+    privileged: true
+    ports:
+     - 389:389
+     - 636:636
