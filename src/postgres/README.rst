@@ -1,1 +1,2 @@
 - https://wiki.postgresql.org/wiki/Psycopg2_Tutorial
+- https://pynative.com/python-postgresql-tutorial/
