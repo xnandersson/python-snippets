@@ -1,0 +1,1 @@
+- http://www.mysqltutorial.org/getting-started-mysql-python-connector/
