@@ -1,7 +1,12 @@
 from configparser import ConfigParser
 
 parser = ConfigParser()
-parser.read('snippet.ini')
+parser.read([
+    os.path.join(os.path.expanduser("~"),'snippets.ini'),
+    '/etc/python-snippets/snippets.ini',
+    '/etc/python-snippets.ini',
+    os.path.join(os.path.dirname(os.path.realpath(__file__)), 'conf', 'snippets.ini')
+])
 
 """ 
 >>> help(parser) # Gives you documentation for parser
